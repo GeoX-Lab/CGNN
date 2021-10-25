@@ -1,0 +1,6 @@
+matplotlib==3.2.2
+networkx==2.4
+numpy==1.18.5
+torch==1.5.1
+torch_geometric==1.5.0
+torch_scatter==2.0.5
