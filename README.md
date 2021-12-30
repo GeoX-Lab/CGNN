@@ -41,3 +41,32 @@ Another examples is that the following commands learn the weights of the curvatu
 ```commandline
 python main.py --dataset Citeseer --NCTM linear --CNM 2-hop-norm
 ```
+  
+###
+If our repo is useful to you, please cite our published paper as follow:
+```
+Bibtex
+@article{li2021cgnn,
+    title={Curvature Graph Neural Network},
+    author={Li, Haifeng and Cao, Jun and Zhu, Jiawei and Liu, Yu and Zhu, Qing and Wu, Guohua},
+    journal={Information Sciences},
+    DOI = {10.1016/j.ins.2021.12.077},
+    year={2021},
+    type = {Journal Article}
+}
+  
+Endnote
+%0 Journal Article
+%A Li, Haifeng
+%A Cao, Jun
+%A Zhu, Jiawei
+%A Liu, Yu
+%A Zhu, Qing
+%A Wu, Guohua
+%D 2021
+%T Curvature Graph Neural Network
+%B Information Sciences
+%R 10.1016/j.ins.2021.12.077
+%! Curvature Graph Neural Network
+
+```
