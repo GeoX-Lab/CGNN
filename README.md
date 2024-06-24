@@ -1,6 +1,13 @@
 Curvature Graph Neural Network
 ==========================================
 A PyTorch implementation of Curvature Graph Neural Network
+
+This is a PyTorch implementation of [Curvature Graph Neural Network](https://www.sciencedirect.com/science/article/pii/S0020025521012986) which has been published by Information Science.
+
+You can visit the document at [sciencedirect](https://www.sciencedirect.com/science/article/pii/S0020025521012986) or [arXiv]( https://arxiv.org/abs/2106.15762).
+
+This work is also a part of our works on graph representation learning and its application for Temporal-Spatial Prediction, called [T-GCN](https://github.com/lehaifeng/T-GCN), from a geometry perspective.
+
 ### Abstract
 <p align="justify">
 Graph neural networks (GNNs) have achieved great success in many graph-based tasks. Muchwork is dedicated to empowering GNNs with adaptive locality ability, which enables the mea-surement of the importance of neighboring nodes to the target node by a node-specific mecha-nism. However, the current node-specific mechanisms are deficient in distinguishing the impor-tance of nodes in the topology structure. We believe that the structural importance of neighboringnodes is closely related to their importance in aggregation. In this paper, we introduce discretegraph curvature (the Ricci curvature) to quantify the strength of the structural connection of pair-wise nodes. We propose Curvature Graph Neural Network (CGNN), which effectively improvesthe adaptive locality ability of GNNs by leveraging the structural properties of graph curvature.To improve the adaptability of curvature on various datasets, we explicitly transform curvatureinto the weights of neighboring nodes by the necessary Negative Curvature Processing Moduleand Curvature Normalization Module. Then, we conduct numerous experiments on various syn-thetic and real-world datasets. The experimental results on synthetic datasets show that CGNN effectively exploits the topology structure information, and that the performance is significantly improved. CGNN outperforms the baselines on 5 dense node classification benchmark datasets. This study deepens the understanding of how to utilize advanced topology information and assignthe importance of neighboring nodes from the perspective of graph curvature and encourages usto bridge the gap between graph theory and neural networks.
